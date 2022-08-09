@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="shriKrishnaGaushala.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <title>Shri Krishna Gaushala</title>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="myNavbar">
+      <a href="/index.html" class="links"
+        ><div id="logo" class="menu_content">LIV-Stock</div></a
+      >
+      <div id="all_menu">
+        <a href="/index.html" class="links">
+          <div class="menu_content">Home</div>
+        </a>
+        <!-- <div class="menu_content">Events</div> -->
+        <a href="/About Us/aboutUs.html" class="links">
+          <div class="menu_content">About Us</div>
+        </a>
+        <a href="/login.html" class="links"
+          ><div class="menu_content">Login</div></a
+        >
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <div class="info">
+      <div class="owner">
+        <div class="profileImage">
+          <img src="Profile.png" alt="" />
+        </div>
+        <div id="ownerName">Rajesh Yadav</div>
+        <div id="ownerid">LIV2134</div>
+        <a href="/login.html" class="links"
+          ><div class="menu_content"><button>Donate</button></div></a
+        >
+      </div>
+      <div class="gaushala">
+        <div class="name">Shri Krishna Gaushala</div>
+        <div class="progress">
+          <div class="block">
+            <div class="image"><img src="Amount.png" alt="" /></div>
+            <div class="milestone">
+              <div class="counter">8500</div>
+              <p>Funds Raised</p>
+            </div>
+          </div>
+          <a href="" id="noOfCow">
+            <div class="block">
+              <div class="image"><img src="noOfCow.png" alt="" /></div>
+              <div class="milestone">
+                <div class="counter">206</div>
+                <p>Number of Cows</p>
+              </div>
+            </div>
+          </a>
+          <div class="block">
+            <div class="image"><img src="farmer.png" alt="" /></div>
+            <div class="milestone">
+              <div class="counter">10</div>
+              <p>Number of Workers</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="center">
+        Copywrite &copy; LIVstock.com. All rights Reserved!
+      </div>
+    </footer>
+    <script>
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1000,
+        });
+      });
+    </script>
+  </body>
+</html>

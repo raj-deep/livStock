@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(211, 236, 197);
+}
+
+.login {
+  /* border: 2px solid black; */
+  background: rgb(211, 236, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4em;
+}
+
+.question {
+  font-family: "Fredoka One", cursive;
+  margin-bottom: 10px;
+  font-size: 4em;
+}
+
+#heading2 {
+  font-size: 2em;
+}
+
+.choice {
+  display: flex;
+  /* border: 2px solid red; */
+  /* background: yellow; */
+  margin-top: 3em;
+}
+
+.choiceImage {
+  height: 24em;
+}
+
+.choiceOption {
+  border-radius: 50%;
+  border: 0.5px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: black;
+  font-family: "Yellowtail", cursive;
+}
+
+#option1 {
+  background: linear-gradient(to right, #65d9ff, 65%, #f6ab5d);
+  margin-right: 3em;
+}
+
+#option2 {
+  background: linear-gradient(to right, #f6ab5d, 45%, green);
+  margin-left: 3em;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 2em;
+}
+
+.choiceOption:hover {
+  transition: all 0.5s;
+  transform: scale(1.05);
+}

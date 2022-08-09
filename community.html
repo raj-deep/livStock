@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Join our Community</title>
+    <link rel="stylesheet" href="community.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="myNavbar">
+      <a href="./index.html" class="links"
+        ><div id="logo" class="menu_content">LIV-Stock</div></a
+      >
+      <div id="all_menu">
+        <a href="./index.html" class="links">
+          <div class="menu_content">Home</div>
+        </a>
+        <!-- <div class="menu_content">Events</div> -->
+        <a href="./About Us/aboutUs.html" class="links">
+          <div class="menu_content">About Us</div>
+        </a>
+        <a href="./login.html" class="links"
+          ><div class="menu_content">Login</div></a
+        >
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- PROGRESS -->
+    <h1>Our Milestones</h1>
+    <div class="progress">
+      <div class="block">
+        <div class="image"><img src="./images/rupee.png" alt="" /></div>
+        <div class="milestone">
+          <div class="counter">20,000</div>
+          <p>Funds Raised</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="image"><img src="./images/cow.png" alt="" /></div>
+        <div class="milestone">
+          <div class="counter">1200</div>
+          <p>Cows Healthified</p>
+        </div>
+      </div>
+      <div class="block">
+        <div class="image"><img src="./images/cattle.png" alt="" /></div>
+        <div class="milestone">
+          <div class="counter">9</div>
+          <p>Gaushalas Served</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="icon facebook">
+        <div class="tooltip">Facebook</div>
+        <span><i class="fab fa-facebook-f"></i></span>
+      </div>
+      <div class="icon twitter">
+        <div class="tooltip">Twitter</div>
+        <span><i class="fab fa-twitter"></i></span>
+      </div>
+      <div class="icon instagram">
+        <div class="tooltip">Instagram</div>
+        <span><i class="fab fa-instagram"></i></span>
+      </div>
+
+      <div class="icon youtube">
+        <div class="tooltip">YouTube</div>
+        <span><i class="fab fa-youtube"></i></span>
+      </div>
+    </div>
+    <script>
+      $(document).ready(function () {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1000,
+        });
+      });
+    </script>
+  </body>
+</html>
